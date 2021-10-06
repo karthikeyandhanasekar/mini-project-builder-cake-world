@@ -46,7 +46,7 @@ function chocolatelayer()
 document.querySelector("#lastlayer").classList.add("lastlayer");
 integrients[0].innerHTML="Chocolate-----300"
 total+=layercost.chocolate
-//cost.innerHTML=total
+cost.innerHTML=""
 
  }
  else
@@ -54,7 +54,7 @@ total+=layercost.chocolate
     document.querySelector("#lastlayer").classList.remove("lastlayer");
     integrients[0].innerHTML=""
     total-=layercost.chocolate
-    //cost.innerHTML=total
+    cost.innerHTML=""
 
 
 
@@ -73,7 +73,7 @@ function strawberry()
 document.querySelector("#fourthlayer").classList.add("fourthlayer");
 integrients[1].innerHTML="Strawberry-----100"
 total+=layercost.strawberry
-//cost.innerHTML=total
+cost.innerHTML=""
 
 
  }
@@ -82,7 +82,7 @@ total+=layercost.strawberry
     document.querySelector("#fourthlayer").classList.remove("fourthlayer");
     integrients[1].innerHTML=""
     total-=layercost.strawberry
-    //cost.innerHTML=total
+    cost.innerHTML=""
 
  }    
 }
@@ -101,7 +101,7 @@ function butterscotch()
 document.querySelector("#thridlayer").classList.add("thridlayer");
 integrients[2].innerHTML="Butterscotch-----200"
 total+=layercost.butterscotch
-//cost.innerHTML=total
+cost.innerHTML=""
 
 
  }
@@ -110,7 +110,7 @@ total+=layercost.butterscotch
     document.querySelector("#thridlayer").classList.remove("thridlayer");
     integrients[2].innerHTML=""
     total-=layercost.butterscotch
-    //cost.innerHTML=total
+    cost.innerHTML=""
 
  }    
 }
@@ -127,7 +127,7 @@ function vanilla()
 document.querySelector("#secondlayer").classList.add("secondlayer");
 integrients[3].innerHTML="Vanilla-------250"
 total+=layercost.vanilla
-//cost.innerHTML=total
+cost.innerHTML=""
 
 
  }
@@ -154,7 +154,7 @@ function redvelvet()
 document.querySelector("#firstlayer").classList.add("firstlayer");
 integrients[4].innerHTML="Redvelvet---------350"
 total+=layercost.redvelvet
-//cost.innerHTML=total
+cost.innerHTML=""
 
 
  }
@@ -163,7 +163,7 @@ total+=layercost.redvelvet
     document.querySelector("#firstlayer").classList.remove("firstlayer");
     integrients[4].innerHTML=""
     total-=layercost.redvelvet
-    //cost.innerHTML=total
+    cost.innerHTML=""
 
  }    
 }

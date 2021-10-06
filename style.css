@@ -138,6 +138,12 @@ body
     color: rgb(9, 248, 9);
     
  }
+ #buttonslist :focus
+ {
+    font-size: 30px;
+    color: yellow   ;
+
+ }
 
 
 
